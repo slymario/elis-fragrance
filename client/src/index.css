@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Roboto:wght@700&family=Work+Sans:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //NAVBAR CSS */
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 36px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 3px solid rgb(200, 160, 160) !important;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+}
+
+.active {
+  border-bottom: 2px solid rgb(228, 21, 21);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+}
+.dropdown-item {
+  background-color: rgb(236, 237, 241);
+  color: #000000;
+}
+.dropdown-item:hover {
+  background-color: rgb(27, 61, 197);
+  color: #fff;
+}
+
+
+/* ===============Footer============ */
+.footer {
+  color: white;
+  padding: 25px;
+  background: #151515;
+  background: -webkit-linear-gradient(
+    to right,
+    #8e8a8a,
+    #000000
+  );
+  background: linear-gradient(to right, #595757, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover {
+  color: rgb(245, 176, 86);
+  border-bottom: 1px solid #f9e6a8;
+}
+
+
+
+/* ====================================
+========= Page Not Found =========== */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+  color: rgb(255, 0, 4);
+  text-decoration: underline;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: #1a1919;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: #000000;
+  color: antiquewhite;
+}
+
+
+/* ====================================
+========= Contact Us =========== */
+
+
+.contact-container {
+  /* background-color: rgb(164, 243, 243); */
+  height: auto;
+  justify-content: center;
+  padding: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-image {
+  width: auto;
+  object-fit: cover;
+  border: none;
+  border-radius: 5px;
+  margin-top: auto; /* Add some spacing between the image and text */
+}
+
+.contact-details {
+  flex: 1;
+  margin-top: 55px;
+}
+
+.contact-heading {
+  font-size: 32px;
+  color: #151414;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  font-size: 18px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin:15px 30px 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #151414;
+}
+
+/* ===================================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+
+/* ==============================================
+=======product details ======================= */
+
+.custom-image {
+  margin-left: 30px;
+  height: 400px;
+  width: 400px; /* Adjust this value to your desired width */
+  object-fit: cover; /* Optional: maintains the aspect ratio while covering the specified dimensions */
+}
+
+
+/* ===================Search Input======================= */
+
+.search {
+  margin-top: 10px;
+  margin-right: 15%;
+  width: 700px;
+}
+
+
+
+
+
+
+
+
+
