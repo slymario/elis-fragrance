@@ -1,0 +1,13 @@
+.card-price {
+  text-align: right;
+  font-weight: bolder;
+}
+.card-title {
+  color: red;
+  font-weight: bold;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+}
